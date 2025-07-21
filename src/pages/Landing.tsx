@@ -92,9 +92,9 @@ function Landing() {
             userSelect: 'none'
           }}
         >
-          {selectedButton === 'one' && 'YA FAJJA!'}
-          {selectedButton === 'two' && 'THE WICK!'}
-          {selectedButton === 'three' && 'THIS GUY!'}
+          {selectedButton === 'one' && 'Around You'}
+          {selectedButton === 'two' && 'Dreaming'}
+          {selectedButton === 'three' && 'Whisper'}
         </h1>
       </div>
       <div
@@ -246,7 +246,7 @@ function Landing() {
         <Col xs="12" className="p-0">
           <div className="video-wrapper">
             <video className="landing-hero-video" autoPlay loop muted>
-              <source src="/videos/landing-video.mp4" type="video/mp4" />
+              <source src="/videos/landing-video-one.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
             <audio ref={audioRef} src={audioSrc} loop />
